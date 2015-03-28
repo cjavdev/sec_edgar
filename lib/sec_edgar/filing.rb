@@ -27,7 +27,8 @@ module SecEdgar
       start += count
       return if start >= limit
       recent({ start: start, count: count, limit: limit }, &blk)
-    rescue OpenURI::HTTPError
+    rescue OpenURI::HTTPError => e
+      puts e
       return
     end
 
