@@ -11,5 +11,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_runtime_dependency "nokogiri"
+  s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "addressable"
   s.add_development_dependency "rspec", "~> 3.2.0"
 end
