@@ -6,12 +6,12 @@ Gem::Specification.new do |s|
   s.description = "Tool for querying the SEC database"
   s.authors     = ["CJ Avilla"]
   s.email       = 'cjavilla@gmail.com'
-  s.files       = ["lib/sec_edgar.rb"]
+  s.files       =  Dir.glob("{lib}/**/*")
   s.homepage    = 'http://rubygems.org/gems/sec_edgar'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency "nokogiri"
-  s.add_runtime_dependency "rest-client"
-  s.add_runtime_dependency "addressable"
+  s.add_runtime_dependency "nokogiri", "~> 1.6.6"
+  s.add_runtime_dependency "rest-client", "~> 1.8.0"
+  s.add_runtime_dependency "addressable", "~> 2.3.8"
   s.add_development_dependency "rspec", "~> 3.2.0"
 end
