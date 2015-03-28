@@ -1,0 +1,367 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ BZl7gU99Ernon7DwX2VRZI/ifnx3kParvvWv3/lNCPCZefrnz1Y123nh05UGa3/7
+ /8vXpnUZIXYl+cZtKsCslA==
+
+<SEC-DOCUMENT>0001209191-06-055343.txt : 20061019
+<SEC-HEADER>0001209191-06-055343.hdr.sgml : 20061019
+<ACCEPTANCE-DATETIME>20061019170611
+ACCESSION NUMBER:		0001209191-06-055343
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20061017
+FILED AS OF DATE:		20061019
+DATE AS OF CHANGE:		20061019
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CSK AUTO CORP
+		CENTRAL INDEX KEY:			0001051848
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-AUTO & HOME SUPPLY STORES [5531]
+		IRS NUMBER:				860765798
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0131
+
+	BUSINESS ADDRESS:	
+		STREET 1:		645 E MISSOURI AVENUE
+		CITY:			PHOENIX
+		STATE:			AZ
+		ZIP:			85012
+		BUSINESS PHONE:		6022659200
+
+	MAIL ADDRESS:	
+		STREET 1:		645 E MISSOURI AVENUE
+		CITY:			PHOENIX
+		STATE:			AZ
+		ZIP:			85012
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Morrison Randi V
+		CENTRAL INDEX KEY:			0001335926
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-13927
+		FILM NUMBER:		061153834
+
+	BUSINESS ADDRESS:	
+		BUSINESS PHONE:		602-631-7139
+
+	MAIL ADDRESS:	
+		STREET 1:		C/O CSK AUTO CORPORATION
+		STREET 2:		645 EAST MISSOURI AVE., SUITE 400
+		CITY:			PHOENIX
+		STATE:			AZ
+		ZIP:			85012
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<DESCRIPTION>FORM 4 SUBMISSION
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2006-10-17</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001051848</issuerCik>
+        <issuerName>CSK AUTO CORP</issuerName>
+        <issuerTradingSymbol>CAO</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001335926</rptOwnerCik>
+            <rptOwnerName>Morrison Randi V</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O CSK AUTO CORPORATION</rptOwnerStreet1>
+            <rptOwnerStreet2>645 EAST MISSOURI AVE.</rptOwnerStreet2>
+            <rptOwnerCity>PHOENIX</rptOwnerCity>
+            <rptOwnerState>AZ</rptOwnerState>
+            <rptOwnerZipCode>85012</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>VP, General Counsel, Secretary</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2006-10-18</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>F</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>167</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>15.53</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>4448</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Incentive Bonus Unit</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>20.00</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2006-10-17</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>125000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0.00</value>
+                    <footnoteId id="F4"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F3"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F3"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Incentive Bonus Unit</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>125000</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>125000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Non-Qualified Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>9.87</value>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <footnoteId id="F5"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2009-04-05</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>660</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>660</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Non-Qualified Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>19.58</value>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <footnoteId id="F6"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2011-02-02</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>5089</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>5089</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Non-Qualified Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>13.32</value>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <footnoteId id="F7"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2011-10-18</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>12000</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>12000</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+        <derivativeHolding>
+            <securityTitle>
+                <value>Non-Qualified Stock Option (right to buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>16.35</value>
+            </conversionOrExercisePrice>
+            <exerciseDate>
+                <footnoteId id="F8"/>
+            </exerciseDate>
+            <expirationDate>
+                <value>2012-06-28</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>7727</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7727</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeHolding>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Represents shares of restricted stock granted October 18, 2004 (the &quot;Grant Date&quot;) surrendered to the Company solely for the purpose of satisfying tax obligations arising upon the vesting of a portion of the restricted shares awarded on the Grant Date.</footnote>
+        <footnote id="F2">Includes 1,387 shares of Restricted Common Stock, which is subject to vesting.</footnote>
+        <footnote id="F3">The reported incentive bonus units will become vested with respect to 25% of the total number of incentive bonus units granted on May 15 of each of the calendar years 2007, 2008, 2009 and 2010, and will entitle the reporting person to receive a distribution of cash equal in value to the amount by which the average of the per share closing prices of the Company's common stock over a specified period of time exceeds the base value of $20.00 (which is subject to adjustment in the event of a change in the Company's capitalization). In the event the formula decribed above results in no payment to the reporting person on a vesting date, then the incentive bonus units vesting on such date will be forfeited without consideration.</footnote>
+        <footnote id="F4">$0.00 is used for technical reasons as there is no price for this derivative security until vested and/or exercised.</footnote>
+        <footnote id="F5">This option grant is fully vested.</footnote>
+        <footnote id="F6">On January 29, 2006, the Company accelerated the vesting of all stock options with an exercise price greater than $15.90 per share (i.e., all &quot;underwater&quot; options as of the close of market on January 27, 2006, the previous business day), which includes this option grant with an exercise price of $19.58.  Sales of such shares by officers and employees may not occur until the original vesting dates, and sales of any such shares by officers and employees who terminate their employment with the Company (subject to certain exceptions in the case of retirement, death, disability and change of control) are disallowed for 3 years following the later of the date of their termination of employment and their exercise of the options.  As of January 29, 2006 1/3 of the grant had already vested.  An additional 1/3 of the grant vested on 2/2/2006.  The orignal vesting date of the remaining 1/3 of the grant is 2/2/2007.</footnote>
+        <footnote id="F7">This option grant becomes vested and exercisable at the rate of one-third on 10/18/2005, one-third on 10/18/2006, and one-third on 10/18/2007.</footnote>
+        <footnote id="F8">On January 29, 2006, the Company accelerated the vesting of all stock options with an exercise price greater than $15.90 per share (i.e., all &quot;underwater&quot; options as of the close of market on January 27, 2006, the previous business day), which includes this option grant with an exercise price of $16.35.  Sales of such shares by officers and employees may not occur until the original vesting dates, and sales of any such shares by officers and employees who terminate their employment with the Company (subject to certain exceptions in the case of retirement, death, disability and change of control) are disallowed for 3 years following the later of the date of their termination of employment and their exercise of the options.  Accordingly, the option holder may only sell 1/3 of the original grant on or after 6/28/06, an additional 1/3 of the original grant on or after 6/28/07 and the remaining 1/3 of the original grant on or after 6/28/08.</footnote>
+    </footnotes>
+
+    <remarks>Executed pursuant to the Limited Power of Attorney for Section 16 Reporting Obligations dated October 13, 2005.</remarks>
+
+    <ownerSignature>
+        <signatureName>Randi V. Morrison
+
+By: /s/ James R. Todd
+Attorney in Fact</signatureName>
+        <signatureDate>2006-10-19</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

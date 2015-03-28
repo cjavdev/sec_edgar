@@ -1,0 +1,165 @@
+<SEC-DOCUMENT>0001537179-14-000007.txt : 20140425
+<SEC-HEADER>0001537179-14-000007.hdr.sgml : 20140425
+<ACCEPTANCE-DATETIME>20140425114938
+ACCESSION NUMBER:		0001537179-14-000007
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20140421
+FILED AS OF DATE:		20140425
+DATE AS OF CHANGE:		20140425
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			GlyEco, Inc.
+		CENTRAL INDEX KEY:			0000931799
+		STANDARD INDUSTRIAL CLASSIFICATION:	INDUSTRIAL INORGANIC CHEMICALS [2810]
+		IRS NUMBER:				330622722
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		4802 EAST RAY ROAD, SUITE 23-196
+		CITY:			PHOENIX
+		STATE:			AZ
+		ZIP:			85044
+		BUSINESS PHONE:		866-960-1539
+
+	MAIL ADDRESS:	
+		STREET 1:		4802 EAST RAY ROAD, SUITE 23-196
+		CITY:			PHOENIX
+		STATE:			AZ
+		ZIP:			85044
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Environmental Credits Ltd
+		DATE OF NAME CHANGE:	20091001
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	BOYSTOYS COM INC
+		DATE OF NAME CHANGE:	19990209
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	ALTERNATIVE ENTERTAINMENT INC
+		DATE OF NAME CHANGE:	19950106
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			AMATO RALPH
+		CENTRAL INDEX KEY:			0001537179
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-30396
+		FILM NUMBER:		14784163
+
+	MAIL ADDRESS:	
+		STREET 1:		2098 CHERRY CREEK CIRCLE
+		CITY:			SUMMERLIN
+		STATE:			NV
+		ZIP:			89135
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2014-04-21</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000931799</issuerCik>
+        <issuerName>GlyEco, Inc.</issuerName>
+        <issuerTradingSymbol>GLYE</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001537179</rptOwnerCik>
+            <rptOwnerName>AMATO RALPH</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>2105 PLANTATION VILLAGE</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>DORADO</rptOwnerCity>
+            <rptOwnerState>PR</rptOwnerState>
+            <rptOwnerZipCode>00646</rptOwnerZipCode>
+            <rptOwnerStateDescription>PUERTO RICO</rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2014-04-21</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>35000</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>1.0006</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7554089</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>By LLC</value>
+                    <footnoteId id="F1"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Held indirectly through RDA Equities, LLC, an entity of which Reporting Person has voting and dispositive control.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>Ralph M. Amato</signatureName>
+        <signatureDate>2014-04-25</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

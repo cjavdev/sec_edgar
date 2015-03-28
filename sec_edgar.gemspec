@@ -9,4 +9,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/sec_edgar.rb"]
   s.homepage    = 'http://rubygems.org/gems/sec_edgar'
   s.license     = 'MIT'
+
+  s.add_runtime_dependency "nokogiri"
+  s.add_development_dependency "rspec", "~> 3.2.0"
 end

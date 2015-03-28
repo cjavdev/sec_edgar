@@ -1,0 +1,169 @@
+<SEC-DOCUMENT>0001179110-14-007110.txt : 20140425
+<SEC-HEADER>0001179110-14-007110.hdr.sgml : 20140425
+<ACCEPTANCE-DATETIME>20140425115013
+ACCESSION NUMBER:		0001179110-14-007110
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20140423
+FILED AS OF DATE:		20140425
+DATE AS OF CHANGE:		20140425
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CITY NATIONAL CORP
+		CENTRAL INDEX KEY:			0000201461
+		STANDARD INDUSTRIAL CLASSIFICATION:	NATIONAL COMMERCIAL BANKS [6021]
+		IRS NUMBER:				952568550
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		400 N ROXBURY DR
+		CITY:			BEVERLY HILLS
+		STATE:			CA
+		ZIP:			90210
+		BUSINESS PHONE:		3108886000
+
+	MAIL ADDRESS:	
+		STREET 1:		400 N ROXBURY DR
+		CITY:			BEVERLY HILLS
+		STATE:			CA
+		ZIP:			90210
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			THOMAS PETER M
+		CENTRAL INDEX KEY:			0001012741
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-10521
+		FILM NUMBER:		14784169
+
+	MAIL ADDRESS:	
+		STREET 1:		2300 W. SAHARA AVENUE
+		STREET 2:		BOX ONE
+		CITY:			LAS VEGAS
+		STATE:			NV
+		ZIP:			89102
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>edgar.xml
+<DESCRIPTION>FORM 4 -
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2014-04-23</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0000201461</issuerCik>
+        <issuerName>CITY NATIONAL CORP</issuerName>
+        <issuerTradingSymbol>CYN</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001012741</rptOwnerCik>
+            <rptOwnerName>THOMAS PETER M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>THOMAS &amp; MACK CO.</rptOwnerStreet1>
+            <rptOwnerStreet2>2300 WEST SAHARA AVENUE, SUITE 503</rptOwnerStreet2>
+            <rptOwnerCity>LAS VEGAS</rptOwnerCity>
+            <rptOwnerState>NV</rptOwnerState>
+            <rptOwnerZipCode>89102</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle></officerTitle>
+            <otherText></otherText>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable></nonDerivativeTable>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Stock Fund Units (DDCP)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <footnoteId id="F1"/>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2014-04-23</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>784</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>76.45</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <footnoteId id="F2"/>
+            </exerciseDate>
+            <expirationDate>
+                <footnoteId id="F2"/>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>784</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>7089</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes>
+        <footnote id="F1">These Stock Fund Units were acquired under the Director Deferred Compensation Plan (DDCP) and convert to stock on a one-for-one basis.</footnote>
+        <footnote id="F2">The Stock Fund Units are generally distributed upon termination, or following retirement on the date or dates specified by the reporting person.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Corinna Cherian, Attorney-in-Fact</signatureName>
+        <signatureDate>2014-04-24</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

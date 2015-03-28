@@ -1,0 +1,190 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ OUB2cD5TtQ11tW6ioW/BEC72bGjJkGU3snFKZrnOApFuPG1WSYpdWeFUB7+MpLQf
+ 8k8o0qIeUBPlRmfhlP4gPQ==
+
+<SEC-DOCUMENT>0000019446-06-000081.txt : 20061019
+<SEC-HEADER>0000019446-06-000081.hdr.sgml : 20061019
+<ACCEPTANCE-DATETIME>20061019123447
+ACCESSION NUMBER:		0000019446-06-000081
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20061018
+FILED AS OF DATE:		20061019
+DATE AS OF CHANGE:		20061019
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CANTEL MEDICAL CORP
+		CENTRAL INDEX KEY:			0000019446
+		STANDARD INDUSTRIAL CLASSIFICATION:	SURGICAL & MEDICAL INSTRUMENTS & APPARATUS [3841]
+		IRS NUMBER:				221760285
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0731
+
+	BUSINESS ADDRESS:	
+		STREET 1:		OVERLOOK AT GREAT NOTCH
+		STREET 2:		150 CLOVE ROAD
+		CITY:			LITTLE FALLS
+		STATE:			NJ
+		ZIP:			07424
+		BUSINESS PHONE:		9734708700
+
+	MAIL ADDRESS:	
+		STREET 1:		OVERLOOK AT GREAT NOTCH
+		STREET 2:		150 CLOVE ROAD
+		CITY:			LITTLE FALLS
+		STATE:			NJ
+		ZIP:			07424
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	CANTEL INDUSTRIES INC
+		DATE OF NAME CHANGE:	19920703
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	STENDIG INDUSTRIES INC
+		DATE OF NAME CHANGE:	19890425
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	CHARVOZ CARSEN CORP
+		DATE OF NAME CHANGE:	19861215
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			DORNBUSH DARWIN C
+		CENTRAL INDEX KEY:			0001244403
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-31337
+		FILM NUMBER:		061152708
+
+	MAIL ADDRESS:	
+		STREET 1:		DORNBUSH MENSCH MANDELSTAM
+		STREET 2:		747 THIRD AVE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10017
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>edgar.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0202</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2006-10-18</periodOfReport>
+
+    <issuer>
+        <issuerCik>0000019446</issuerCik>
+        <issuerName>CANTEL MEDICAL CORP</issuerName>
+        <issuerTradingSymbol>CMN</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001244403</rptOwnerCik>
+            <rptOwnerName>DORNBUSH DARWIN C</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>DORNBUSH SCHAEFFER STRONGIN &amp; VENAGLIA</rptOwnerStreet1>
+            <rptOwnerStreet2>747 THIRD AVENUE</rptOwnerStreet2>
+            <rptOwnerCity>NEW YORK</rptOwnerCity>
+            <rptOwnerState>NY</rptOwnerState>
+            <rptOwnerZipCode>10017</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <derivativeTable>
+        <derivativeTransaction>
+            <securityTitle>
+                <value>Option (Right to Buy)</value>
+            </securityTitle>
+            <conversionOrExercisePrice>
+                <value>9.97</value>
+            </conversionOrExercisePrice>
+            <transactionDate>
+                <value>2006-10-18</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>M</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1125</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>0</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <exerciseDate>
+                <value>2001-10-31</value>
+            </exerciseDate>
+            <expirationDate>
+                <value>2006-10-31</value>
+            </expirationDate>
+            <underlyingSecurity>
+                <underlyingSecurityTitle>
+                    <value>Common Stock</value>
+                </underlyingSecurityTitle>
+                <underlyingSecurityShares>
+                    <value>1125</value>
+                </underlyingSecurityShares>
+            </underlyingSecurity>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>0</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value></value>
+                </natureOfOwnership>
+            </ownershipNature>
+        </derivativeTransaction>
+    </derivativeTable>
+
+    <footnotes></footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Darwin C. Dornbush</signatureName>
+        <signatureDate>2006-10-19</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

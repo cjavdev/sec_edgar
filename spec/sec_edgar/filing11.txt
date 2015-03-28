@@ -1,0 +1,159 @@
+<SEC-DOCUMENT>0001528985-14-000001.txt : 20140425
+<SEC-HEADER>0001528985-14-000001.hdr.sgml : 20140425
+<ACCEPTANCE-DATETIME>20140425172851
+ACCESSION NUMBER:		0001528985-14-000001
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20140424
+FILED AS OF DATE:		20140425
+DATE AS OF CHANGE:		20140425
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Inland Real Estate Income Trust, Inc.
+		CENTRAL INDEX KEY:			0001528985
+		STANDARD INDUSTRIAL CLASSIFICATION:	REAL ESTATE INVESTMENT TRUSTS [6798]
+		IRS NUMBER:				453079597
+		STATE OF INCORPORATION:			MD
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2901 BUTTERFIELD ROAD
+		CITY:			OAK BROOK
+		STATE:			IL
+		ZIP:			60523
+		BUSINESS PHONE:		6302188000
+
+	MAIL ADDRESS:	
+		STREET 1:		2901 BUTTERFIELD ROAD
+		CITY:			OAK BROOK
+		STATE:			IL
+		ZIP:			60523
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Inland Monthly Income Trust, Inc.
+		DATE OF NAME CHANGE:	20120130
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Inland Core Assets Real Estate Trust, Inc.
+		DATE OF NAME CHANGE:	20110830
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			McGuinness JoAnn M
+		CENTRAL INDEX KEY:			0001311884
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55146
+		FILM NUMBER:		14786580
+
+	MAIL ADDRESS:	
+		STREET 1:		2907 BUTTERFIELD ROAD
+		STREET 2:		3RD FLOOR
+		CITY:			OAK BROOK
+		STATE:			IL
+		ZIP:			60523
+
+	FORMER NAME:	
+		FORMER CONFORMED NAME:	Armenta JoAnn M
+		DATE OF NAME CHANGE:	20041217
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2014-04-24</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001528985</issuerCik>
+        <issuerName>Inland Real Estate Income Trust, Inc.</issuerName>
+        <issuerTradingSymbol>n/a</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001311884</rptOwnerCik>
+            <rptOwnerName>McGuinness JoAnn M</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>2907 BUTTERFIELD ROAD</rptOwnerStreet1>
+            <rptOwnerStreet2>3RD FLOOR</rptOwnerStreet2>
+            <rptOwnerCity>OAK BROOK</rptOwnerCity>
+            <rptOwnerState>IL</rptOwnerState>
+            <rptOwnerZipCode>60523</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>President and COO</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Inland Real Estate Income Trust, Inc.</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2014-04-24</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>4444.444</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>9</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>4444.444</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <ownerSignature>
+        <signatureName>/s/ Roberta S. Matlin, Vice President</signatureName>
+        <signatureDate>2014-04-25</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
