@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sec_edgar'
-  s.version     = '0.0.2'
+  s.version     = '0.0.4'
   s.date        = '2015-03-27'
   s.summary     = "SEC filings finder"
   s.description = "Tool for querying the SEC database"
@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/sec_edgar'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency "nokogiri", "~> 1.6.6"
-  s.add_runtime_dependency "rest-client", "~> 1.8.0"
-  s.add_runtime_dependency "addressable", "~> 2.3.6"
+  s.add_runtime_dependency "nokogiri"
+  s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "addressable"
   s.add_development_dependency "rspec", "~> 3.2.0"
 end

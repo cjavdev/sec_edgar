@@ -1,4 +1,4 @@
-module Sec4
+module SecEdgar
   class NilOwnershipDocument
     def document_type
       '4'
