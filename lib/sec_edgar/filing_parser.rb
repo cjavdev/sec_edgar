@@ -16,14 +16,14 @@ module SecEdgar
     end
 
     def doc
-      @doc ||= OwnershipDocument.new
+      @doc ||= SecEdgar::OwnershipDocument.new
     end
 
     def parse(&error_blk)
       if block_given? && !xml_valid?
         error_blk.call(xml_errors)
         puts "Error: returning NilObjectDocument #{ @filing.link }"
-        return NilOwnershipDocument.new
+        return SecEdgar::NilOwnershipDocument.new
       end
 
       footnotes | transactions | derivative_transactions # eager init
@@ -62,7 +62,7 @@ module SecEdgar
     end
 
     def parse_transaction(el)
-      transaction = Transaction.new
+      transaction = SecEdgar::Transaction.new
       transaction.security_title = el.xpath('securityTitle').text.strip
       transaction.transaction_date = Date.parse(el.xpath('transactionDate').text)
 
@@ -79,14 +79,14 @@ module SecEdgar
     end
 
     def parse_footnote(el)
-      footnote = Footnote.new
+      footnote = SecEdgar::Footnote.new
       footnote.content = el.text.strip
       footnote.id = el.attribute("id").value
       footnotes << footnote
     end
 
     def parse_derivative_transaction(el)
-      transaction = DerivativeTransaction.new
+      transaction = SecEdgar::DerivativeTransaction.new
 
       transaction.security_title = el.xpath('securityTitle').text.strip
       transaction.transaction_date = Date.parse(el.xpath('transactionDate').text)
@@ -187,7 +187,7 @@ module SecEdgar
          el.xpath('//isOfficer').text.downcase == 'true')
       doc.officer_title = el.xpath('//officerTitle').text
 
-      address = Address.new
+      address = SecEdgar::Address.new
       address.street1 = el.xpath('//rptOwnerStreet1').text
       address.street2 = el.xpath('//rptOwnerStreet2').text
       address.city = el.xpath('//rptOwnerCity').text

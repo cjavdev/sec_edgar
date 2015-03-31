@@ -82,7 +82,7 @@ module SecEdgar
       unless data[4][0..3] == 'http'
         data[4] = "http://www.sec.gov/Archives/#{ data[4] }"
       end
-      Filing.new(
+      SecEdgar::Filing.new(
         term: data[1],
         cik: data[2],
         date: Date.parse(data[3]),
@@ -91,7 +91,7 @@ module SecEdgar
     end
 
     def self.uri_for_recent(start = 0, count = 100)
-      SecURI.browse_edgar_uri(
+      SecEdgar::SecURI.browse_edgar_uri(
         action: :getcurrent,
         owner: :include,
         output: :atom,
@@ -101,7 +101,7 @@ module SecEdgar
     end
 
     def self.uri_for_cik(cik, start = 0, count = 100)
-      SecURI.browse_edgar_uri(
+      SecEdgar::SecURI.browse_edgar_uri(
         action: :getcompany,
         owner: :include,
         output: :atom,
@@ -114,7 +114,7 @@ module SecEdgar
     def self.parse_rss(rss, &blk)
       feed = RSS::Parser.parse(rss, false)
       feed.entries.each do |entry|
-        filing = Filing.new(
+        filing = SecEdgar::Filing.new(
           cik: entry.title.content.match(/\((\w{10})\)/)[1],
           file_id: entry.id.content.split('=').last,
           term:  entry.category.term,
@@ -126,17 +126,6 @@ module SecEdgar
         blk.call(filing)
       end
     end
-
-    # def self.find(cik, start = 0, count = 80)
-    #   temp = {}
-    #   temp[:url] = SecURI.browse_edgar_uri({cik: cik})
-    #   temp[:url][:action] = :getcompany
-    #   temp[:url][:start] = start
-    #   temp[:url][:count] = count
-    #   response = Entity.query(temp[:url].output_atom.to_s)
-    #   document = Nokogiri::HTML(response)
-    #   parse(cik, document)
-    # end
 
     def self.parse(cik, document)
       filings = []
@@ -150,7 +139,7 @@ module SecEdgar
             content[:link] = content.delete('filing_href')
             content[:term] = content.delete('filing_type')
             content[:title] = content.delete('form_name')
-            filings << Filing.new(content)
+            filings << SecEdgar::Filing.new(content)
           end
         end
       end

@@ -26,11 +26,11 @@ module SecEdgar
     end
 
     def filings
-      Filing.find(@cik)
+      SecEdgar::Filing.find(@cik)
     end
 
     def transactions
-      Transaction.find(@cik)
+      SecEdgar::Transaction.find(@cik)
     end
 
     def self.query(url)
@@ -43,32 +43,5 @@ module SecEdgar
         end
       end
     end
-
-    # def self.find(entity_args)
-    #   temp = {}
-    #   temp[:url] = SecURI.browse_edgar_uri(entity_args)
-    #   temp[:url][:action] = :getcompany
-    #   response = query(temp[:url].output_atom.to_s)
-    #   document = Nokogiri::HTML(response)
-    #   xml = document.xpath("//feed/company-info")
-    #   Entity.new(parse(xml))
-    # end
-    #
-    # def self.parse(xml)
-    #   content = Hash.from_xml(xml.to_s)
-    #   if content['company_info'].present?
-    #     content = content['company_info']
-    #     content['name'] = content.delete('conformed_name')
-    #     if content['formerly_names'].present?
-    #       content['formerly_names'] = content.delete('formerly_names')['names']
-    #     end
-    #     content['addresses']['address'].each do |address|
-    #       content["#{address['type']}_address"] = address
-    #     end
-    #     return content
-    #   else
-    #     return {}
-    #   end
-    # end
   end
 end
