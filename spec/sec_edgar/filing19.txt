@@ -1,0 +1,214 @@
+<SEC-DOCUMENT>0001209191-15-030372.txt : 20150331
+<SEC-HEADER>0001209191-15-030372.hdr.sgml : 20150331
+<ACCEPTANCE-DATETIME>20150331142621
+ACCESSION NUMBER:		0001209191-15-030372
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20150327
+FILED AS OF DATE:		20150331
+DATE AS OF CHANGE:		20150331
+
+ISSUER:
+
+	COMPANY DATA:
+		COMPANY CONFORMED NAME:			KCG Holdings, Inc.
+		CENTRAL INDEX KEY:			0001569391
+		STANDARD INDUSTRIAL CLASSIFICATION:	SECURITY BROKERS, DEALERS & FLOTATION COMPANIES [6211]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	BUSINESS ADDRESS:
+		STREET 1:		545 WASHINGTON BOULEVARD
+		CITY:			JERSEY CITY
+		STATE:			NJ
+		ZIP:			07310
+		BUSINESS PHONE:		201-222-9400
+
+	MAIL ADDRESS:
+		STREET 1:		545 WASHINGTON BOULEVARD
+		CITY:			JERSEY CITY
+		STATE:			NJ
+		ZIP:			07310
+
+	FORMER COMPANY:
+		FORMER CONFORMED NAME:	Knight Holdco, Inc.
+		DATE OF NAME CHANGE:	20130211
+
+REPORTING-OWNER:
+
+	OWNER DATA:
+		COMPANY CONFORMED NAME:			Daniel V. Tierney 2011 Trust
+		CENTRAL INDEX KEY:			0001580516
+		STATE OF INCORPORATION:			IL
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-54991
+		FILM NUMBER:		15738370
+
+	BUSINESS ADDRESS:
+		STREET 1:		C/O WICKLOW CAPITAL, INC.
+		STREET 2:		53 W. JACKSON BLVD., SUITE 1204
+		CITY:			CHICAGO
+		STATE:			IL
+		ZIP:			60604
+		BUSINESS PHONE:		312-360-1377
+
+	MAIL ADDRESS:
+		STREET 1:		C/O WICKLOW CAPITAL, INC.
+		STREET 2:		53 W. JACKSON BLVD., SUITE 1204
+		CITY:			CHICAGO
+		STATE:			IL
+		ZIP:			60604
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>doc4.xml
+<DESCRIPTION>FORM 4 SUBMISSION
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2015-03-27</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001569391</issuerCik>
+        <issuerName>KCG Holdings, Inc.</issuerName>
+        <issuerTradingSymbol>KCG</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001580516</rptOwnerCik>
+            <rptOwnerName>Daniel V. Tierney 2011 Trust</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O WICKLOW CAPITAL, INC.</rptOwnerStreet1>
+            <rptOwnerStreet2>53 W. JACKSON BLVD., SUITE 1204</rptOwnerStreet2>
+            <rptOwnerCity>CHICAGO</rptOwnerCity>
+            <rptOwnerState>IL</rptOwnerState>
+            <rptOwnerZipCode>60604</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>0</isOfficer>
+            <isTenPercentOwner>1</isTenPercentOwner>
+            <isOther>0</isOther>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Class A Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2015-03-27</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>16883</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>12.41</value>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>8726227</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                    <footnoteId id="F3"/>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Class A Common Stock, par value $0.01 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2015-03-30</value>
+            </transactionDate>
+            <deemedExecutionDate></deemedExecutionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>S</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>29619</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>12.37</value>
+                    <footnoteId id="F4"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>8696608</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                    <footnoteId id="F3"/>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Transactions executed in accordance with a Rule 10b5-1 trading plan established on February 2, 2015.</footnote>
+        <footnote id="F2">Represents the sale of 16,883 shares in multiple transactions at prices ranging from $12.32 to $12.46 per share, resulting in a weighted average sale price per share of $12.41. The reporting person undertakes to provide the SEC, the Issuer, or any security holder of the Issuer, upon request, full information pertaining to the number of shares sold at each price.</footnote>
+        <footnote id="F3">These shares of Class A Common Stock are held directly by the Daniel V. Tierney 2011 Trust (&quot;Trust&quot;). The sole trustee of the Trust is Emma Cuadrado, who holds voting and dispositive power over the securities held by the Trust and disclaims beneficial ownership of such securities. Daniel V. Tierney, a director of KCG Holdings, Inc., is the settlor and sole beneficiary of the Trust, but does not have or share investment control with respect to the securities held by the Trust.</footnote>
+        <footnote id="F4">Represents the sale of 29,619 shares in multiple transactions at prices ranging from $12.31 to $12.46 per share, resulting in a weighted average sale price per share of $12.37. The reporting person undertakes to provide the SEC, the Issuer, or any security holder of the Issuer, upon request, full information pertaining to the number of shares sold at each price.</footnote>
+    </footnotes>
+
+    <remarks></remarks>
+
+    <ownerSignature>
+        <signatureName>/s/ Emma Cuadrado, by power of attorney</signatureName>
+        <signatureDate>2015-03-31</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

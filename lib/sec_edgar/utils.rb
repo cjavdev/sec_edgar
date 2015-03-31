@@ -1,6 +1,6 @@
 class String
   def blank?
-    /^\s*$/.match(self)
+    /\A[\s]*\z/.match(self)
   end
 
   def underscore

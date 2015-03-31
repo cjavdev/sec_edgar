@@ -33,7 +33,7 @@ describe SecEdgar::FilingParser do
       SecEdgar::FilingParser.new(filing).parse
     end
 
-    (2..18).to_a.each do |x|
+    (2..19).to_a.each do |x|
       let("filing#{ x }".to_sym) { double('filing') }
 
       let("filing#{ x }txt".to_sym) do
@@ -57,6 +57,7 @@ describe SecEdgar::FilingParser do
       expect(doc4.footnotes.count).to eq(1)
       expect(doc5.footnotes.count).to eq(2)
       expect(doc6.footnotes.count).to eq(1)
+      expect(doc19.footnotes.count).to eq(4)
     end
 
     it 'parses the schemaVersion' do
@@ -76,6 +77,7 @@ describe SecEdgar::FilingParser do
       expect(doc16.schema_version).to eq('X0202')
       expect(doc17.schema_version).to eq('X0202')
       expect(doc18.schema_version).to eq('X0202')
+      expect(doc19.schema_version).to eq('X0306')
     end
 
     it 'parses the periodOfReport' do
@@ -95,6 +97,7 @@ describe SecEdgar::FilingParser do
       expect(doc14.period_of_report).to eq(Date.parse('2013-01-01'))
       expect(doc15.period_of_report).to eq(Date.parse('2006-10-18'))
       expect(doc16.period_of_report).to eq(Date.parse('2006-10-15'))
+      expect(doc19.period_of_report).to eq(Date.parse('2015-03-27'))
     end
 
     it 'parses the documentType' do
@@ -112,6 +115,7 @@ describe SecEdgar::FilingParser do
       expect(doc12.document_type).to eq('4')
       expect(doc15.document_type).to eq('4')
       expect(doc16.document_type).to eq('4')
+      expect(doc19.document_type).to eq('4')
     end
 
     it 'parses the notSubjectToSection16' do
@@ -128,6 +132,7 @@ describe SecEdgar::FilingParser do
       expect(doc12.not_subject_to_section_16).to eq(false)
       expect(doc15.not_subject_to_section_16).to eq(false)
       expect(doc16.not_subject_to_section_16).to eq(false)
+      expect(doc19.not_subject_to_section_16).to eq(false)
     end
 
     describe 'issuer' do
@@ -147,6 +152,7 @@ describe SecEdgar::FilingParser do
         expect(doc14.issuer_cik).to eq('0001326583')
         expect(doc15.issuer_cik).to eq('0001130258')
         expect(doc16.issuer_cik).to eq('0001024795')
+        expect(doc19.issuer_cik).to eq('0001569391')
       end
 
       it 'parses the issuerName' do
@@ -166,6 +172,7 @@ describe SecEdgar::FilingParser do
           .to eq('KRATOS DEFENSE  SECURITY SOLUTIONS, INC.')
         expect(doc15.issuer_name).to eq('ACME PACKET INC')
         expect(doc16.issuer_name).to eq('SUN HYDRAULICS CORP')
+        expect(doc19.issuer_name).to eq('KCG Holdings, Inc.')
       end
 
       it 'parses the issuerTradingSymbol' do
@@ -184,6 +191,7 @@ describe SecEdgar::FilingParser do
         expect(doc14.issuer_trading_symbol).to eq('WBMD')
         expect(doc15.issuer_trading_symbol).to eq('APKT')
         expect(doc16.issuer_trading_symbol).to eq('SNHY')
+        expect(doc19.issuer_trading_symbol).to eq('KCG')
       end
     end
 
@@ -204,6 +212,7 @@ describe SecEdgar::FilingParser do
         expect(doc14.owner_cik).to eq('0001443559')
         expect(doc15.owner_cik).to eq('0001376835')
         expect(doc16.owner_cik).to eq('0001225259')
+        expect(doc19.owner_cik).to eq('0001580516')
       end
 
       it 'parses the rptOwnerName' do
@@ -222,6 +231,7 @@ describe SecEdgar::FilingParser do
         expect(doc14.owner_name).to eq('Coleman Thomas Jason')
         expect(doc15.owner_name).to eq('DOBBINS EPHRAIM')
         expect(doc16.owner_name).to eq('ROBSON PETER G')
+        expect(doc19.owner_name).to eq('Daniel V. Tierney 2011 Trust')
       end
 
       describe 'address' do
@@ -242,6 +252,7 @@ describe SecEdgar::FilingParser do
           expect(doc12.owner_address.street1).to eq('4820 EASTGATE MALL')
           expect(doc15.owner_address.street1).to eq('C/O ACME PACKET, INC.')
           expect(doc16.owner_address.street1).to eq('1500 W UNIVERSITY PARKWAY')
+          expect(doc19.owner_address.street1).to eq('C/O WICKLOW CAPITAL, INC.')
         end
 
         it 'parses the rptOwnerStreet2' do
@@ -259,6 +270,7 @@ describe SecEdgar::FilingParser do
           expect(doc10.owner_address.street2).to eq('')
           expect(doc11.owner_address.street2).to eq('3RD FLOOR')
           expect(doc15.owner_address.street2).to eq('71 THIRD AVENUE')
+          expect(doc19.owner_address.street2).to eq('53 W. JACKSON BLVD., SUITE 1204')
         end
 
         it 'parses the rptOwnerCity' do
@@ -275,6 +287,7 @@ describe SecEdgar::FilingParser do
           expect(doc11.owner_address.city).to eq('OAK BROOK')
           expect(doc15.owner_address.city).to eq('BURLINGTON')
           expect(doc16.owner_address.city).to eq('SARASOTA')
+          expect(doc19.owner_address.city).to eq('CHICAGO')
         end
 
         it 'parses the rptOwnerState' do
@@ -291,6 +304,7 @@ describe SecEdgar::FilingParser do
           expect(doc11.owner_address.state).to eq('IL')
           expect(doc15.owner_address.state).to eq('MA')
           expect(doc16.owner_address.state).to eq('FL')
+          expect(doc19.owner_address.state).to eq('IL')
         end
 
         it 'parses the rptOwnerZipCode' do
@@ -307,6 +321,7 @@ describe SecEdgar::FilingParser do
           expect(doc11.owner_address.zip).to eq('60523')
           expect(doc15.owner_address.zip).to eq('01803')
           expect(doc16.owner_address.zip).to eq('34243')
+          expect(doc19.owner_address.zip).to eq('60604')
         end
 
         it 'parses the rptOwnerStateDescription' do
@@ -329,6 +344,7 @@ describe SecEdgar::FilingParser do
         expect(doc12.is_director).to eq(false)
         expect(doc15.is_director).to eq(false)
         expect(doc16.is_director).to eq(false)
+        expect(doc19.is_director).to eq(false)
       end
 
       it 'parses the isOfficer' do
@@ -346,6 +362,7 @@ describe SecEdgar::FilingParser do
         expect(doc12.is_officer).to eq(true)
         expect(doc15.is_officer).to eq(true)
         expect(doc16.is_officer).to eq(true)
+        expect(doc19.is_officer).to eq(false)
       end
 
       it 'parses the isTenPercentOwner' do
@@ -363,6 +380,7 @@ describe SecEdgar::FilingParser do
         expect(doc12.is_ten_percent_owner).to eq(false)
         expect(doc15.is_ten_percent_owner).to eq(false)
         expect(doc16.is_ten_percent_owner).to eq(false)
+        expect(doc19.is_ten_percent_owner).to eq(true)
       end
 
       it 'parses the isOther' do
@@ -380,6 +398,7 @@ describe SecEdgar::FilingParser do
         expect(doc12.is_other).to eq(false)
         expect(doc15.is_other).to eq(false)
         expect(doc16.is_other).to eq(false)
+        expect(doc19.is_other).to eq(false)
       end
 
       it 'parses the officerTitle' do
@@ -407,6 +426,7 @@ describe SecEdgar::FilingParser do
           expect(doc12.transactions.count).to eq(1)
           expect(doc15.transactions.count).to eq(1)
           expect(doc16.transactions.count).to eq(2)
+          expect(doc19.transactions.count).to eq(2)
         end
 
         describe 'nonDerivativeTransaction' do
@@ -425,6 +445,8 @@ describe SecEdgar::FilingParser do
           let(:doc15transaction1) { doc15.transactions.first }
           let(:doc16transaction1) { doc16.transactions.first }
           let(:doc16transaction2) { doc16.transactions.last }
+          let(:doc19transaction1) { doc19.transactions.first }
+          let(:doc19transaction2) { doc19.transactions.last }
 
           it 'parses the securityTitle' do
             expect(doc2transaction1.security_title).to eq('Common Stock')
@@ -449,6 +471,8 @@ describe SecEdgar::FilingParser do
               .to eq('Common Stock, $0.001 par value')
             expect(doc16transaction1.security_title).to eq('Common Stock')
             expect(doc16transaction2.security_title).to eq('Common Stock')
+            expect(doc19transaction1.security_title).to eq('Class A Common Stock, par value $0.01 per share')
+            expect(doc19transaction2.security_title).to eq('Class A Common Stock, par value $0.01 per share')
           end
 
           it 'parses the transactionDate' do
@@ -482,6 +506,10 @@ describe SecEdgar::FilingParser do
               .to eq(Date.parse('2006-10-15'))
             expect(doc16transaction2.transaction_date)
               .to eq(Date.parse('2006-10-15'))
+            expect(doc19transaction1.transaction_date)
+              .to eq(Date.parse('2015-03-27'))
+            expect(doc19transaction2.transaction_date)
+              .to eq(Date.parse('2015-03-30'))
           end
 
           it 'parses the transactionFormType' do
@@ -499,6 +527,8 @@ describe SecEdgar::FilingParser do
             expect(doc15transaction1.form_type).to eq('4')
             expect(doc16transaction1.form_type).to eq('4')
             expect(doc16transaction2.form_type).to eq('4')
+            expect(doc19transaction1.form_type).to eq('4')
+            expect(doc19transaction2.form_type).to eq('4')
           end
 
           it 'parses the transactionCode' do
@@ -517,6 +547,8 @@ describe SecEdgar::FilingParser do
             expect(doc15transaction1.code).to eq('S')
             expect(doc16transaction1.code).to eq('M')
             expect(doc16transaction2.code).to eq('D')
+            expect(doc19transaction1.code).to eq('S')
+            expect(doc19transaction2.code).to eq('S')
           end
 
           it 'parses the equitySwapInvolved' do
@@ -532,6 +564,8 @@ describe SecEdgar::FilingParser do
             expect(doc15transaction1.equity_swap_involved).to eq(false)
             expect(doc16transaction1.equity_swap_involved).to eq(false)
             expect(doc16transaction2.equity_swap_involved).to eq(false)
+            expect(doc19transaction1.equity_swap_involved).to eq(false)
+            expect(doc19transaction2.equity_swap_involved).to eq(false)
           end
 
           it 'parses the transactionTimeliness'
@@ -552,6 +586,8 @@ describe SecEdgar::FilingParser do
             expect(doc15transaction1.shares).to eq(24_000)
             expect(doc16transaction1.shares).to eq(809.7166)
             expect(doc16transaction2.shares).to eq(809.7166)
+            expect(doc19transaction1.shares).to eq(16883)
+            expect(doc19transaction2.shares).to eq(29619)
           end
 
           it 'parses the transactionPricePerShare' do
@@ -570,6 +606,8 @@ describe SecEdgar::FilingParser do
             expect(doc15transaction1.price_per_share).to eq(9.50)
             expect(doc16transaction1.price_per_share).to eq(21)
             expect(doc16transaction2.price_per_share).to eq(21)
+            expect(doc19transaction1.price_per_share).to eq(12.41)
+            expect(doc19transaction2.price_per_share).to eq(12.37)
           end
 
           it 'parses the transactionAcquiredDisposedCode' do
@@ -588,6 +626,8 @@ describe SecEdgar::FilingParser do
             expect(doc15transaction1.acquired_or_disposed_code).to eq('D')
             expect(doc16transaction1.acquired_or_disposed_code).to eq('A')
             expect(doc16transaction2.acquired_or_disposed_code).to eq('D')
+            expect(doc19transaction1.acquired_or_disposed_code).to eq('D')
+            expect(doc19transaction2.acquired_or_disposed_code).to eq('D')
           end
 
           it 'parses the sharesOwnedFollowingTransaction' do
@@ -606,6 +646,8 @@ describe SecEdgar::FilingParser do
             expect(doc15transaction1.shares_after).to eq(265_582)
             expect(doc16transaction1.shares_after).to eq(809.7166)
             expect(doc16transaction2.shares_after).to eq(0)
+            expect(doc19transaction1.shares_after).to eq(8726227)
+            expect(doc19transaction2.shares_after).to eq(8696608)
           end
 
           it 'parses the directOrIndirectOwnership' do
@@ -624,6 +666,8 @@ describe SecEdgar::FilingParser do
             expect(doc15transaction1.direct_or_indirect_code).to eq('D')
             expect(doc16transaction1.direct_or_indirect_code).to eq('D')
             expect(doc16transaction2.direct_or_indirect_code).to eq('D')
+            expect(doc19transaction1.direct_or_indirect_code).to eq('D')
+            expect(doc19transaction2.direct_or_indirect_code).to eq('D')
           end
 
           it 'parses the natureOfOwnership' do
