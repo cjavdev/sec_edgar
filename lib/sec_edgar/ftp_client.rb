@@ -9,7 +9,7 @@ module SecEdgar
       login
 
       at_exit do
-        puts "Closing Sec4::FtpClient..."
+        puts "Closing SecEdgar::FtpClient..."
         @ftp.close
       end
     end
@@ -21,14 +21,14 @@ module SecEdgar
     def connect
       @ftp.connect('ftp.sec.gov', 21)
     rescue => e
-      puts "Sec4::FtpClient connection failed"
+      puts "SecEdgar::FtpClient connection failed"
       puts e.message
     end
 
     def login
       @ftp.login
     rescue => e
-      puts "Sec4::FtpClient login failed"
+      puts "SecEdgar::FtpClient login failed"
       puts e.message
     end
   end
