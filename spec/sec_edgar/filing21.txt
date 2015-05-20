@@ -1,0 +1,208 @@
+<SEC-DOCUMENT>0001004878-15-000149.txt : 20150520
+<SEC-HEADER>0001004878-15-000149.hdr.sgml : 20150520
+<ACCEPTANCE-DATETIME>20150520120022
+ACCESSION NUMBER:		0001004878-15-000149
+CONFORMED SUBMISSION TYPE:	4
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20150518
+FILED AS OF DATE:		20150520
+DATE AS OF CHANGE:		20150520
+
+ISSUER:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			SYNERGY RESOURCES CORP
+		CENTRAL INDEX KEY:			0001413507
+		STANDARD INDUSTRIAL CLASSIFICATION:	CRUDE PETROLEUM & NATURAL GAS [1311]
+		IRS NUMBER:				202835920
+		STATE OF INCORPORATION:			CO
+		FISCAL YEAR END:			0831
+
+	BUSINESS ADDRESS:	
+		STREET 1:		20203 HIGHWAY 60
+		CITY:			PLATTEVILLE
+		STATE:			CO
+		ZIP:			80651
+		BUSINESS PHONE:		303-591-7413
+
+	MAIL ADDRESS:	
+		STREET 1:		20203 HIGHWAY 60
+		CITY:			PLATTEVILLE
+		STATE:			CO
+		ZIP:			80651
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Brishlin Resources, Inc.
+		DATE OF NAME CHANGE:	20071217
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Blue Star Energy Inc
+		DATE OF NAME CHANGE:	20070926
+
+REPORTING-OWNER:	
+
+	OWNER DATA:	
+		COMPANY CONFORMED NAME:			Scaff William E JR
+		CENTRAL INDEX KEY:			0001522560
+
+	FILING VALUES:
+		FORM TYPE:		4
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35245
+		FILM NUMBER:		15878743
+
+	MAIL ADDRESS:	
+		STREET 1:		21931 E. RIDGE TRAIL CIRCLE
+		CITY:			AURORA
+		STATE:			CO
+		ZIP:			80016
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>4
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<DESCRIPTION>PRIMARY DOCUMENT
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0306</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2015-05-18</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001413507</issuerCik>
+        <issuerName>SYNERGY RESOURCES CORP</issuerName>
+        <issuerTradingSymbol>SYRG</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0001522560</rptOwnerCik>
+            <rptOwnerName>Scaff William E JR</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>20203 HIGHWAY 60</rptOwnerStreet1>
+            <rptOwnerStreet2></rptOwnerStreet2>
+            <rptOwnerCity>PLATTEVILLE</rptOwnerCity>
+            <rptOwnerState>CO</rptOwnerState>
+            <rptOwnerZipCode>80651</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>1</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>Co-Chief Executive Officer</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2015-05-18</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>A</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>10000</value>
+                    <footnoteId id="F2"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>11.8</value>
+                    <footnoteId id="F3"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>2971355</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>See Note</value>
+                    <footnoteId id="F1"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2015-05-18</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>F</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>3200</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>11.8</value>
+                    <footnoteId id="F3"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>2968155</value>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>I</value>
+                </directOrIndirectOwnership>
+                <natureOfOwnership>
+                    <value>See Note</value>
+                    <footnoteId id="F1"/>
+                </natureOfOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">2,947,887 shares are held of record by various trusts and limited liability companies controlled by Mr. Scaff.</footnote>
+        <footnote id="F2">Acquisition of 10,000 shares that vested pursuant to grant dated June 23, 2014.</footnote>
+        <footnote id="F3">Price at close of business on Friday, May 15, 2015.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ William E. Scaff, Jr.</signatureName>
+        <signatureDate>2015-05-18</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

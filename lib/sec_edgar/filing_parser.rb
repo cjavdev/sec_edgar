@@ -164,6 +164,7 @@ module SecEdgar
         (el.xpath('//notSubjectToSection16').text == '1' ||
          el.xpath('//notSubjectToSection16').text == 'true')
       doc.period_of_report = Date.parse(el.xpath('//periodOfReport').text)
+      # p doc.period_of_report
     rescue ArgumentError => e
       puts "parse_doc error: #{ el.inspect }"
       puts e

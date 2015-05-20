@@ -33,7 +33,7 @@ describe SecEdgar::FilingParser do
       SecEdgar::FilingParser.new(filing).parse
     end
 
-    (2..19).to_a.each do |x|
+    (2..21).to_a.each do |x|
       let("filing#{ x }".to_sym) { double('filing') }
 
       let("filing#{ x }txt".to_sym) do
@@ -58,6 +58,8 @@ describe SecEdgar::FilingParser do
       expect(doc5.footnotes.count).to eq(2)
       expect(doc6.footnotes.count).to eq(1)
       expect(doc19.footnotes.count).to eq(4)
+      expect(doc20.footnotes.count).to eq(3)
+      expect(doc21.footnotes.count).to eq(3)
     end
 
     it 'parses the schemaVersion' do
@@ -78,6 +80,8 @@ describe SecEdgar::FilingParser do
       expect(doc17.schema_version).to eq('X0202')
       expect(doc18.schema_version).to eq('X0202')
       expect(doc19.schema_version).to eq('X0306')
+      expect(doc20.schema_version).to eq('X0306')
+      expect(doc21.schema_version).to eq('X0306')
     end
 
     it 'parses the periodOfReport' do
@@ -98,6 +102,7 @@ describe SecEdgar::FilingParser do
       expect(doc15.period_of_report).to eq(Date.parse('2006-10-18'))
       expect(doc16.period_of_report).to eq(Date.parse('2006-10-15'))
       expect(doc19.period_of_report).to eq(Date.parse('2015-03-27'))
+      expect(doc20.period_of_report).to eq(Date.parse('2015-03-27'))
     end
 
     it 'parses the documentType' do
@@ -153,6 +158,7 @@ describe SecEdgar::FilingParser do
         expect(doc15.issuer_cik).to eq('0001130258')
         expect(doc16.issuer_cik).to eq('0001024795')
         expect(doc19.issuer_cik).to eq('0001569391')
+        expect(doc20.issuer_cik).to eq('0001126328')
       end
 
       it 'parses the issuerName' do
@@ -173,6 +179,8 @@ describe SecEdgar::FilingParser do
         expect(doc15.issuer_name).to eq('ACME PACKET INC')
         expect(doc16.issuer_name).to eq('SUN HYDRAULICS CORP')
         expect(doc19.issuer_name).to eq('KCG Holdings, Inc.')
+        expect(doc20.issuer_name).to eq('PRINCIPAL FINANCIAL GROUP INC')
+        expect(doc21.issuer_name).to eq('SYNERGY RESOURCES CORP')
       end
 
       it 'parses the issuerTradingSymbol' do
@@ -192,6 +200,7 @@ describe SecEdgar::FilingParser do
         expect(doc15.issuer_trading_symbol).to eq('APKT')
         expect(doc16.issuer_trading_symbol).to eq('SNHY')
         expect(doc19.issuer_trading_symbol).to eq('KCG')
+        expect(doc20.issuer_trading_symbol).to eq('PFG')
       end
     end
 
@@ -213,6 +222,7 @@ describe SecEdgar::FilingParser do
         expect(doc15.owner_cik).to eq('0001376835')
         expect(doc16.owner_cik).to eq('0001225259')
         expect(doc19.owner_cik).to eq('0001580516')
+        expect(doc20.owner_cik).to eq('0001246392')
       end
 
       it 'parses the rptOwnerName' do
@@ -232,6 +242,7 @@ describe SecEdgar::FilingParser do
         expect(doc15.owner_name).to eq('DOBBINS EPHRAIM')
         expect(doc16.owner_name).to eq('ROBSON PETER G')
         expect(doc19.owner_name).to eq('Daniel V. Tierney 2011 Trust')
+        expect(doc20.owner_name).to eq('DAN MICHAEL T')
       end
 
       describe 'address' do
@@ -253,6 +264,7 @@ describe SecEdgar::FilingParser do
           expect(doc15.owner_address.street1).to eq('C/O ACME PACKET, INC.')
           expect(doc16.owner_address.street1).to eq('1500 W UNIVERSITY PARKWAY')
           expect(doc19.owner_address.street1).to eq('C/O WICKLOW CAPITAL, INC.')
+          expect(doc20.owner_address.street1).to eq('711 HIGH STREET')
         end
 
         it 'parses the rptOwnerStreet2' do
@@ -288,6 +300,7 @@ describe SecEdgar::FilingParser do
           expect(doc15.owner_address.city).to eq('BURLINGTON')
           expect(doc16.owner_address.city).to eq('SARASOTA')
           expect(doc19.owner_address.city).to eq('CHICAGO')
+          expect(doc20.owner_address.city).to eq('DES MOINES')
         end
 
         it 'parses the rptOwnerState' do
@@ -305,6 +318,7 @@ describe SecEdgar::FilingParser do
           expect(doc15.owner_address.state).to eq('MA')
           expect(doc16.owner_address.state).to eq('FL')
           expect(doc19.owner_address.state).to eq('IL')
+          expect(doc20.owner_address.state).to eq('IA')
         end
 
         it 'parses the rptOwnerZipCode' do

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sec_edgar'
-  s.version     = '0.0.8'
+  s.version     = '0.0.9'
   s.date        = '2015-03-27'
   s.summary     = "SEC filings finder"
   s.description = "Tool for querying the SEC database"
